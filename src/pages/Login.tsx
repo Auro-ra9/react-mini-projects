@@ -1,4 +1,3 @@
-import login from "../assets/loginEntryPointPost.webp"
 const Login = () => {
   
     const handleSumbission=()=>{
@@ -7,7 +6,7 @@ const Login = () => {
   return (
     <div className="flex items-center justify-center min-h-screen">
     <div className='flex flex-col items-center justify-center rounded-lg  space-y-4 max-w-sm p-6 w-full shadow-lg '>
-        <img className="max-w-40" src={login} alt="" />
+       
          <h1 className='text-3xl font-serif text-center'>Welocome to Aura Shop</h1>
          <h1 className='opacity-65'>Login to continue your account</h1>
          <button onClick={handleSumbission} className="bg-red-600 text-white p-2 rounded-lg"> LOGIN </button>
