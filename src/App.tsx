@@ -8,6 +8,7 @@ import ThemeProvider from "./context/ThemeContext";
 import PropPassing from "./pages/Wednesday_20_2024/PropPassing";
 import Counter from "./pages/Wednesday_20_2024/Counter";
 import Form from "./pages/Wednesday_20_2024/Form";
+import FetchAPI from "./pages/Wednesday_20_2024/FetchAPI";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
             <Route path="/props" element={<PropPassing />} />
             <Route path="/counter" element={<Counter />} />
             <Route path="/form" element={<Form />} />
+            <Route path="/api" element={<FetchAPI />} />
           </Routes>
         </ThemeProvider>
       </BrowserRouter>
