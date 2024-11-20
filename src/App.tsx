@@ -9,6 +9,7 @@ import PropPassing from "./pages/Wednesday_20_2024/PropPassing";
 import Counter from "./pages/Wednesday_20_2024/Counter";
 import Form from "./pages/Wednesday_20_2024/Form";
 import FetchAPI from "./pages/Wednesday_20_2024/FetchAPI";
+import ComponentLifecycle from "./pages/Wednesday_20_2024/ComponentLifecycle";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/counter" element={<Counter />} />
             <Route path="/form" element={<Form />} />
             <Route path="/api" element={<FetchAPI />} />
+            <Route path="/timer" element={<ComponentLifecycle />} />
           </Routes>
         </ThemeProvider>
       </BrowserRouter>
