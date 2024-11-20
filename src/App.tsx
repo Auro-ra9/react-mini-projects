@@ -5,9 +5,9 @@ import BackgroundChanger from "./pages/BackgroundChanger";
 import PasswordGenerator from "./pages/PasswordGenerator";
 import { Toaster } from "react-hot-toast";
 import ThemeProvider from "./context/ThemeContext";
-import PropPassing from "./pages/props/PropPassing";
-import Counter from "./pages/props/Counter";
-import Form from "./pages/props/Form";
+import PropPassing from "./pages/Wednesday_20_2024/PropPassing";
+import Counter from "./pages/Wednesday_20_2024/Counter";
+import Form from "./pages/Wednesday_20_2024/Form";
 
 const App = () => {
   return (
