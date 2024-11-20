@@ -12,6 +12,7 @@ const Form = () => {
     const { name, value } = e.target;
     setForm((prev) => ({
       ...prev,
+      //dynamic property access [name] means name:value or age:value
       [name]: name === "age" ? Number(value) : value,
     }));
   };
