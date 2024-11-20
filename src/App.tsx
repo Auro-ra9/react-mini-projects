@@ -5,6 +5,9 @@ import BackgroundChanger from "./pages/BackgroundChanger"
 import PasswordGenerator from "./pages/PasswordGenerator"
 import { Toaster } from "react-hot-toast"
 import ThemeProvider from "./context/ThemeContext"
+import PropPassing from "./pages/props/PropPassing"
+import Counter from "./pages/props/Counter"
+
 const App = () => {
   return (
     <>
@@ -16,6 +19,9 @@ const App = () => {
       <Route path="/todo" element={<Todo/>}/>
       <Route path="/password-generator" element={<PasswordGenerator/>}/>
       <Route path="/color" element={<BackgroundChanger/>}/>
+      <Route path="/props" element={<PropPassing/>}/>
+      <Route path="/counter" element={<Counter/>}/>
+     
     </Routes>
     </ThemeProvider>
     </BrowserRouter>
