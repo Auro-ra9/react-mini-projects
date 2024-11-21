@@ -1,3 +1,5 @@
+//12. Implement dynamic routing to show a user profile based on the user ID in the URL.
+
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
