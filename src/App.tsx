@@ -13,6 +13,7 @@ import ComponentLifecycle from "./pages/20_21_2024/ComponentLifecycle";
 import Register from "./pages/20_21_2024/Register";
 import SearchBar from "./pages/20_21_2024/SearchBar";
 import HomeContactAbout from "./pages/20_21_2024/HomeContactAbout";
+import UserProfile from "./pages/20_21_2024/UserProfile";
 
 const App = () => {
   return (
@@ -23,6 +24,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<SearchBar />} />
             <Route path="/home" element={<HomeContactAbout />} />
+            {/* Dynamic route for user profiles */}
+            <Route path="/user/:id" element={<UserProfile />} />
             <Route path="/login" element={<Login />} />
             <Route path="/todo" element={<Todo />} />
             <Route path="/password-generator" element={<PasswordGenerator />} />
