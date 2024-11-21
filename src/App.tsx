@@ -11,6 +11,7 @@ import Form from "./pages/Wednesday_20_2024/Form";
 import FetchAPI from "./pages/Wednesday_20_2024/FetchAPI";
 import ComponentLifecycle from "./pages/Wednesday_20_2024/ComponentLifecycle";
 import Register from "./pages/Wednesday_20_2024/Register";
+import SearchBar from "./pages/Wednesday_20_2024/SearchBar";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <BrowserRouter>
         <ThemeProvider>
           <Routes>
+            <Route path="/" element={<SearchBar />} />
             <Route path="/login" element={<Login />} />
             <Route path="/todo" element={<Todo />} />
             <Route path="/password-generator" element={<PasswordGenerator />} />
