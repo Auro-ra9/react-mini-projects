@@ -5,13 +5,14 @@ import BackgroundChanger from "./pages/BackgroundChanger";
 import PasswordGenerator from "./pages/PasswordGenerator";
 import { Toaster } from "react-hot-toast";
 import ThemeProvider from "./context/ThemeContext";
-import PropPassing from "./pages/Wednesday_20_2024/PropPassing";
-import Counter from "./pages/Wednesday_20_2024/Counter";
-import Form from "./pages/Wednesday_20_2024/Form";
-import FetchAPI from "./pages/Wednesday_20_2024/FetchAPI";
-import ComponentLifecycle from "./pages/Wednesday_20_2024/ComponentLifecycle";
-import Register from "./pages/Wednesday_20_2024/Register";
-import SearchBar from "./pages/Wednesday_20_2024/SearchBar";
+import PropPassing from "./pages/20_21_2024/PropPassing";
+import Counter from "./pages/20_21_2024/Counter";
+import Form from "./pages/20_21_2024/Form";
+import FetchAPI from "./pages/20_21_2024/FetchAPI";
+import ComponentLifecycle from "./pages/20_21_2024/ComponentLifecycle";
+import Register from "./pages/20_21_2024/Register";
+import SearchBar from "./pages/20_21_2024/SearchBar";
+import HomeContactAbout from "./pages/20_21_2024/HomeContactAbout";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <ThemeProvider>
           <Routes>
             <Route path="/" element={<SearchBar />} />
+            <Route path="/home" element={<HomeContactAbout />} />
             <Route path="/login" element={<Login />} />
             <Route path="/todo" element={<Todo />} />
             <Route path="/password-generator" element={<PasswordGenerator />} />
